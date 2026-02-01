@@ -70,15 +70,29 @@ charset → supports all languages
 description → SEO
 viewport → mobile-friendly
 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
 
+🔹 Viewport = the visible area of the webpage on the user’s device
+🔹 width=device-width
+Set the page width equal to the device screen width
+Without this → mobile browsers pretend the page is ~980px wide and shrink it → layout breaks.
+🔹 initial-scale=1.0
+Page zoom level when first loaded = 100%
 
+Test (optional)
+Right Click → Inspect
+Click this icon in DevTools:
+📱🖥 Toggle Device Toolbar
 
+Ctrl + Shift + M   (Windows)
+Cmd + Shift + M    (Mac)
+
+Choose Device
+At the top, select:
+
+iPhone SE
+iPhone 14
+Pixel
+Galaxy
+Responsive
+
+Try, with and without that line. 

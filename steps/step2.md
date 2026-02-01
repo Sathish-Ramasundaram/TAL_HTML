@@ -50,6 +50,12 @@ Update weight and height optional
 <img src="Tree.png" alt="Sample Tree Image" width="50%" height="80%" />
 <body style="height: 100vh;"> --> This is needed for height adjustment. 
 
+Note: 
+Absolute path tied to your PC only
+Browser blocks local file access in many cases
+If you are having index.html and tried this C:/Training/TAL_HTML/Tree.png
+It won't work. See the console error for reference.
+
 3. Explanation (core concepts)
 🔹 Headings (h1 → h6)
 <h1>Largest heading</h1>

@@ -1,41 +1,12 @@
-# Step 5 — Semantic HTML (Meaningful Structure)
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Registration App</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="A simple student registration app built using HTML only">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
 
-You will learn: 
-What semantic means in HTML
-Why semantic tags exist
-How screen readers, SEO, and browsers benefit
-Real HTML5 semantic tags
-
-1. Semantic HTML = using tags that clearly describe the role and meaning of content.
-❌ Non-semantic:
-<div>Header</div>
-
-✅ Semantic:
-<header>Header</header>
-
-Same display.
-Very different meaning.
-
-2. 🧩 Common Semantic Tags:
-Tag	        Meaning
-<header>	Top section / intro
-<nav>	Navigation links
-<main>	Main content
-
-<section>	Grouped content - is a semantic container element used to group related content into a logical block.
-Example: 
-Section 1 — About App
-Section 2 — Courses
-Section 3 — Students Table
-Section 4 — Registration Form
-
-<article>	Independent content
-<footer>	Bottom info
-
-3. 
-Replace EVERYTHING inside <body> with this:
-
-```
 
 <body>
 
@@ -95,12 +66,12 @@ Replace EVERYTHING inside <body> with this:
       <form>
         <p>
           <label for="name">Full Name:</label><br>
-          <input type="text" id="name" name="name">
+          <input type="text" id="name" name="name" required minlength="3" placeholder="Enter full name">
         </p>
 
         <p>
           <label for="email">Email:</label><br>
-          <input type="email" id="email" name="email">
+          <input type="email" id="email" name="email" placeholder="Enter email address" required>
         </p>
 
         <p>
@@ -127,19 +98,4 @@ Replace EVERYTHING inside <body> with this:
 
 </body>
 
-```
-
-4. Why this matters (very important)
-✅ Accessibility
-Screen readers understand page structure
-Users with disabilities navigate easily
-
-✅ SEO
-Search engines understand what’s important
-
-✅ Maintainability
-Other devs understand the page instantly
-
-
-
-
+</html>

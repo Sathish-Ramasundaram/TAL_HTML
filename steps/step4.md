@@ -83,9 +83,47 @@ Only one option selected at a time
 Multi-line text input
 Used for comments, messages
 
+rows="4"
+Shows space for 4 lines of text
+Controls the vertical height
+User can still type more — scrollbar will appear
+
+cols="30"
+Shows space for about 30 characters in one line
+Controls the horizontal width
+Based on average character width (not pixel-perfect)
+
 <button type="submit">
 Submits the form
 Browser sends data automatically
+
+Note: 
+submit button sends the form data; button type only triggers JavaScript logic.
+
+Use submit
+Form submission
+Login / Register / Save buttons
+When sending data
+
+Use button
+Open popup
+Validate fields manually
+Increment counter
+Show/hide content
+React / JS handlers
+
+Example: 
+
+<form action="/save">
+  <input name="email">
+  <button type="submit">Submit</button>
+</form>
+
+
+<button type="button" onclick="alert('Hello')">
+  Click Me
+</button>
+
 
 5. What happens when you click “Register”?
 
@@ -101,8 +139,4 @@ Backend stores data
 
 Right now, HTML is doing its job perfectly.
 
-7. 
-8. 
-9. 
-10. 
 
