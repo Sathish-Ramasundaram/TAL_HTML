@@ -87,5 +87,5 @@ td → normal cell
 
 🔹 border="1"
 Old-school HTML attribute
-Used here only because CSS is not allowed
+Used here only because CSS is not used.
 Makes table visible
