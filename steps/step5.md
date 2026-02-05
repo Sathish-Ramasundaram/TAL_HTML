@@ -103,6 +103,13 @@ Replace EVERYTHING inside <body> with this:
           <input type="email" id="email" name="email">
         </p>
 
+        <p>Gender:<br />
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+        </p>
+
         <p>
           <label for="course">Select Course:</label><br>
           <select id="course" name="course">

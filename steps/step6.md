@@ -24,8 +24,10 @@ This alone means your app is HTML5-compliant ✔️
 Replace your name input with this:
 <input type="text" id="name" name="name" required minlength="3" placeholder="Enter full name">
 
+<input type="email" id="email" name="email" placeholder="Enter email address" required>
+
 What changed?
-require
+required
 Browser blocks submission if empty
 No JS needed
 
@@ -34,16 +36,14 @@ Forces minimum characters
 Built-in validation
 Try submitting empty → browser stops you
 
-3️⃣ HTML5 Placeholder Attribute
-
-<input type="email" id="email" name="email" placeholder="Enter email address" required>
+HTML5 Placeholder Attribute
 
 Why?
 Shows hint text
 Improves UX
 Disappears when typing
 
-4️⃣ HTML5 required + Browser Validation (magic ✨)
+4️⃣ HTML5 Browser Validation (magic ✨)
 Try this:
 Enter invalid email → browser warns you
 Leave field empty → browser blocks submit
@@ -64,6 +64,11 @@ Why this matters:
 charset → supports all languages
 description → SEO
 viewport → mobile-friendly
+
+HTML is case-insensitive for attribute values like utf-8, so UTF-8 and utf-8 are treated the same.
+Best Practice
+Use <meta charset="UTF-8"> (uppercase) because it’s the most common convention and clearer to read.
+Place it as the first line inside <head> so the browser knows how to interpret characters right away.
 
 🔹 Viewport = the visible area of the webpage on the user’s device
 🔹 width=device-width
