@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Registration App</title>
+    <meta charset="utf-8">
+    <meta name="description" content="This page is about student registration form">
+    <!-- <meta name="viewport" content="width=device-width, initial-value=1.0"> -->
+  </head>
+
+<body>
+
+  <h1>Student Registration Application</h1>
+
+  <h2>Welcome</h2>
+  <p>
+    This application is used to register students and display basic information.
+    It is built using only HTML.
+  </p>
+
+  <h3>About This App</h3>
+  <p>
+    This app demonstrates basic HTML components such as headings, paragraphs,
+    images, links, lists, tables, and forms.
+  </p>
+
+  <h3>Sample Image</h3>
+  <img 
+    src="https://via.placeholder.com/150" 
+    alt="Sample student image">
+
+  <h3>Useful Link</h3>
+  <p>
+    Visit 
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+      HTML Documentation
+    </a>
+    to learn more about HTML.
+  </p>
+
+  <form>
+    <p>
+        <label for="name">Name:</label><br />
+        <input type="name" id="name" name="name" required placeholder="Enter your name" minlength="3">
+    </p>
+    <p>
+        <label for="course">Select Course:</label><br />
+        <select id="course" name="course">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JS</option>
+        </select>
+    </p>
+
+    <p>Gender:<br />
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+</p>
+
+
+    <button type="button" onclick="alert('Hello')">Submit</button>
+
+  </form>
+
+</body>
+
+</html>
